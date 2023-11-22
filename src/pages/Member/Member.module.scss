@@ -1,0 +1,14 @@
+@import "../../style/_mixins.scss";
+.member {
+    .member-container {
+        padding: 50px 100px;
+
+        @include respond(tablet) {
+            padding: 50px;
+        }
+
+        @include respond(mobile) {
+            padding: 50px 30px;
+        }
+    }
+}

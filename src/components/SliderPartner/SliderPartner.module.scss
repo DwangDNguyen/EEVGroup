@@ -1,0 +1,23 @@
+@import "../../style/_mixins.scss";
+
+.slider-partner {
+    width: 100%;
+    text-align: center;
+    // max-width: 1170px;
+    // display: grid;
+    // gap: 2.5rem;
+    // grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    // margin: 8rem auto;
+
+    .item-container {
+        height: 100px;
+        & img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            display: block;
+            border-radius: var(--radius);
+            transition: var(--transition);
+        }
+    }
+}

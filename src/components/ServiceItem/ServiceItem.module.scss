@@ -1,0 +1,79 @@
+@import "../../style/_mixins.scss";
+.service-item {
+    margin-bottom: 50px;
+
+    &:last-child {
+        hr {
+            display: none;
+        }
+    }
+
+    &:nth-child(even) {
+        .service-item-container {
+            .main-service {
+                flex-direction: row-reverse;
+
+                @include respond(mobile) {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    // &:nth-child(2n + 1) {
+    //     .service-item-container {
+    //         flex-direction: row;
+    //     }
+    // }
+    .service-item-container {
+        margin-bottom: 50px;
+        .main-service {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            @include respond(mobile) {
+                flex-direction: column;
+            }
+            .main-service-img {
+                flex: 1;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .main-service-content {
+                flex: 1;
+                h1 {
+                    margin-bottom: 20px;
+                    @include respond(tablet) {
+                        font-size: 2.5rem;
+                    }
+                    @include respond(mobile) {
+                        font-size: 2.5rem;
+                    }
+                }
+                p {
+                    @include respond(tablet) {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        .main-service-bottom {
+            h3 {
+                padding: 20px 0;
+            }
+            .main-service-list {
+                margin-bottom: 20px;
+                list-style: none;
+                // list-style-image: url("../../assets/image/logo-eev.png");
+                li {
+                    margin-bottom: 10px;
+                    @include respond(tablet) {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}

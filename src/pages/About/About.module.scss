@@ -1,0 +1,272 @@
+@import "../../style/_mixins.scss";
+.about {
+    section {
+        // height: 100vh;
+        // width: 100vw;
+        // scroll-snap-align: center;
+        // overflow: hidden;
+        .section-container {
+            padding: 150px 100px;
+            display: flex;
+            align-items: center;
+            gap: 80px;
+            @include respond(mobile) {
+                flex-direction: column;
+                padding: 50px 30px;
+                gap: 50px;
+            }
+            .section-container-img {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .img-parent {
+                    width: 250px;
+                    height: 350px;
+                    background-color: var(--primary-color);
+                    position: relative;
+                    span {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        color: var(--white-color);
+                        font-size: 2rem;
+                        font-weight: bold;
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .img {
+                        position: absolute;
+                        bottom: -50px;
+                        right: -60px;
+                        width: 150px;
+                        height: 100px;
+                        @include respond(mobile) {
+                            bottom: -50px;
+                            right: -20px;
+                        }
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+            .section-container-intro {
+                flex: 1;
+
+                h1 {
+                    font-size: 3.5rem;
+                    font-weight: bold;
+                    text-align: center;
+                    @include respond(tablet) {
+                        font-size: 2.5rem;
+                    }
+                    @include respond(mobile) {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+        .section-container-2 {
+            padding: 50px 100px;
+            background-color: var(--gray-color);
+            display: flex;
+            align-items: center;
+            @include respond(tablet) {
+                flex-direction: column;
+                // padding: 50px;
+                // gap: 50px;
+            }
+            @include respond(mobile) {
+                flex-direction: column;
+                padding: 50px 30px;
+                // gap: 50px;
+            }
+            .section-container-2-left {
+                flex: 1;
+                .section-container-item {
+                    display: flex;
+                    align-items: center;
+                    gap: 100px;
+                    margin-bottom: 50px;
+                    @include respond(mobile) {
+                        flex-direction: column;
+                        gap: 50px;
+                    }
+                    @include respond(tablet) {
+                        // flex-direction: column;
+                        gap: 50px;
+                    }
+                    .section-icon {
+                        flex: 1;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+                    }
+                    .section-content {
+                        flex: 6;
+                        h1 {
+                            @include respond(mobile) {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+            .section-container-2-right {
+                // flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                @include respond(mobile) {
+                    display: none;
+                }
+            }
+        }
+        .section-container-3 {
+            display: flex;
+            align-items: center;
+            @include respond(tablet) {
+                // flex-direction: column;
+            }
+            @include respond(mobile) {
+                flex-direction: column;
+            }
+            .section-container-item {
+                flex: 1;
+                padding: 50px;
+                color: var(--white-color);
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                @include respond(tablet) {
+                    // flex-direction: column;
+                    padding: 20px;
+                    // height: 50vh;
+                }
+                @include respond(mobile) {
+                    // flex-direction: column;
+                    padding: 50px 30px;
+                    // height: 50vh;
+                }
+
+                &:nth-child(1) {
+                    background-color: #1abc9c;
+                }
+                &:nth-child(2) {
+                    background-color: #34495e;
+                }
+                &:nth-child(3) {
+                    background-color: #e74c3c;
+                }
+                h1 {
+                    font-size: 3.5rem;
+                    font-weight: bold;
+                    text-align: center;
+                    margin: 0;
+                    @include respond(tablet) {
+                        font-size: 2.5rem;
+                    }
+                    @include respond(mobile) {
+                        font-size: 2.5rem;
+                    }
+                }
+                .position {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                    @include respond(tablet) {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        .section-container-4 {
+            // position: relative;
+
+            margin-top: 50px;
+            h1 {
+                text-align: center;
+                margin: 0;
+            }
+            .line {
+                margin: 0px auto 50px;
+                height: 5px;
+                width: 100px;
+                background-color: var(--primary-color);
+            }
+        }
+        .section-container-5 {
+            padding: 50px 100px;
+            @include respond(mobile) {
+                padding: 50px 30px;
+            }
+            @include respond(tablet) {
+                padding: 50px;
+            }
+            h1 {
+                text-align: center;
+                font-size: 3.5rem;
+                font-weight: bold;
+                margin: 0;
+            }
+            .line {
+                margin: 0px auto 50px;
+                height: 5px;
+                width: 100px;
+                background-color: var(--primary-color);
+            }
+            h4 {
+                text-align: center;
+                font-weight: normal;
+                margin-bottom: 50px;
+            }
+            .welfare-policy {
+                display: grid;
+                grid-template-columns: repeat(
+                    auto-fill,
+                    minmax(calc(33.33% - 10px), 1fr)
+                );
+                gap: 10px;
+
+                @include respond(mobile) {
+                    grid-template-columns: 1fr;
+                }
+
+                .welfare-policy-item {
+                    background-color: var(--primary-color);
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 10px;
+                    border: 5px solid transparent;
+                    border-radius: 10px;
+                    padding: 20px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                    .welfare-policy-item-text {
+                        span {
+                            color: var(--white-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

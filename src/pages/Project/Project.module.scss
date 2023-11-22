@@ -1,0 +1,23 @@
+@import "../../style/_mixins.scss";
+.project {
+    padding: 50px 100px;
+    @include respond(mobile) {
+        padding: 50px 30px;
+    }
+    @include respond(tablet) {
+        padding: 50px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: bold;
+        // margin-bottom: 20px;
+        margin: 0;
+    }
+    .line {
+        margin: 0px auto 50px;
+        height: 5px;
+        width: 100px;
+        background-color: var(--primary-color);
+    }
+}
