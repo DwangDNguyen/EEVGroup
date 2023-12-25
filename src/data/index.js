@@ -73,56 +73,72 @@ import {
     Project32,
     Project41,
     Project42,
+    Policy1,
+    Policy2,
+    Policy3,
+    Policy4,
+    Policy5,
+    Service1,
+    Service2,
+    Service3,
+    EEVProject1,
+    Service4,
+    Service5,
+    EEVProject2,
+    PvdProject,
+    MemberEev,
+    MemberIcc,
+    MemberHc,
 } from "../imgEntry.js";
 
 export const services = [
     {
-        title: "Đại lý, môi giới, đấu giá",
-        desc: "Thực hiện tổ chức các mô hình giao dịch tập trung, bằng các công cụ tài chính và thông qua hệ thống công nghệ thông tin để phục vụ nhu cầu giao dịch và đầu tư của các chủ thể trong nền kinh tế. Với đội ngũ cán bộ giàu kinh nghiệm trong lĩnh vực tài chính – giao dịch hàng hoá, chúng tôi tự tin mang đến cho khách hàng những phương án tối ưu về kinh tế.",
-        image: "https://img.freepik.com/free-vector/isometric-credit-isolated-concept-bank-manager-tells-person-who-took-loan-from-bank-about-his-debt-vector-illustration_1284-79409.jpg?w=740&t=st=1700360807~exp=1700361407~hmac=fc0a54ddef09e17d484b2fa014ffa18e00e690959ce06f415b2a9df9b8f547bc",
+        title: "Agency, Brokerage, Auction",
+        desc: "Implementing centralized transaction models through financial tools and information technology systems to meet the transaction and investment needs of entities in the economy. With an experienced team in the field of finance and commodity trading, we are confident in providing customers with optimal economic solutions.",
+        image: Service1,
         mainService: [],
     },
     {
-        title: "Trao đổi hàng hóa",
-        desc: "Thực hiện nghiên cứu, tiêu chuẩn hoá các loại hàng hoá, đặc biệt là hàng hoá thế mạnh của Việt Nam, thông qua các mô hình giao dịch để đưa vào niêm yết và phục vụ nhu cầu trên thị trường giao dịch hàng hoá tập trung. Đối với mỗi chủng loại hàng hoá cần khảo sát, Chúng tôi nhận được sự hỗ trợ mạnh mẽ từ hệ thống đối tác rộng khắp và đội ngũ chuyên gia tư vấn với nhiều năm kinh nghiệm.",
-        image: "https://img.freepik.com/free-vector/stock-exchange-data_23-2148595254.jpg?w=996&t=st=1700360976~exp=1700361576~hmac=a5e722666162a2754c0acbfe7897f00cee6efb182f321ed35f8874e7a8d464e0",
+        title: "Commodity Exchange",
+        desc: "Conducting research and standardizing various types of commodities, especially Vietnam's key products, through transaction models to list and meet the market demand in centralized commodity trading. For each type of commodity to be surveyed, we receive strong support from an extensive network of partners and a team of experienced advisors.",
+        image: Service2,
         mainService: [
-            "Bán buôn nông, lâm sản nguyên liệu (trừ gỗ, tre, nứa) và động vật sống.",
-            "Bán buôn gạo.",
-            "Bán buôn thực phẩm.",
-            "Bán buôn nhiên liệu rắn, lỏng, khí và các sản phẩm liên quan.",
-            "Bán buôn kim loại và quặng kim loại.",
-            "Bán buôn chuyên doanh khác chưa được phân vào đâu.",
+            "Wholesale of agricultural and forest raw materials (except wood, bamboo, cork) and live animals.",
+            "Rice wholesale.",
+            "Food wholesale.",
+            "Wholesale of solid, liquid, gaseous fuels and related products.",
+            "Wholesale of metals and metal ores.",
+            "Other specialized wholesalers have not been categorized.",
         ],
     },
     {
-        title: "Logistic - Vận tải và kho bãi",
-        desc: "Để hoàn thiện mô hình giao dịch  hàng hoá tập trung, chúng tôi cung cấp trọn gói các dịch vụ cho các chủ thể tham gia giao dịch trên thị trường hàng hoá, bao gồm dịch vụ vận tải hàng hoá nội địa và quốc tế. Với kinh nghiệm thực hiện các hợp đồng vận tải lớn, đa dạng về chủng loại hàng hoá vận tải, phương thức thực hiện và mối quan hệ sâu rộng trong ngành, cùng với đó là hệ thống kho bãi tại các cảng lớn trên toàn lãnh thổ Việt Nam, chúng tôi tự tin mang đến cho khách hàng những dịch vụ hoàn thiện nhất.",
-        image: "https://img.freepik.com/free-vector/isometric-export-import-isolated-composition-with-world-map-background-warehouse-building-with-multiple-cargo-vehicles-vector-illustration_1284-82228.jpg?w=900&t=st=1700360574~exp=1700361174~hmac=ce7bd90f10c57bbe837f5fed47f3c1ae9466f05737ff9ae2918fba86953e6c6e",
+        title: "Logistics - Transportation and Warehouse",
+        desc: "To perfect the centralized commodity trading model, we provide a full package of services to entities participating in transactions in the commodity market, including domestic and international freight transportation services. With experience in implementing large transportation contracts, diverse in types of transported goods and implementation methods",
+        image: Service3,
         mainService: [
-            "Vận tải hàng hóa bằng đường bộ.",
-            "Vận tải hàng hóa ven biển và viễn dương.",
-            "Kho bãi và lưu giữ hàng hóa.",
-            "Dịch vụ đóng gói.",
-            "Dịch vụ giám định thương mại.",
+            "Freight transport by road.",
+            "Coastal freight and ocean.",
+            "Warehousing and storage of goods.",
+            "Packing service.",
+            "Commercial inspection services.",
         ],
     },
     {
-        title: "Hệ thống công nghệ thông tin",
-        desc: "Thuận theo xu thế chung toàn cầu, chúng tôi nỗ lực áp dụng công nghệ thông tin để nâng cao hiệu quả giao dịch và đầu tư cho khách hàng, đặc biệt là trong giao dịch thông qua mô hình giao dịch hàng hoá tập trung. Các mục tiêu đạt được bao gồm: Tiết kiệm chi phí, tốc độ giao dịch nhanh chóng; Nâng cao tính thanh khoản của thị trường; Cung cấp thêm ngày càng nhiều các tính năng hữu ích chò người dùng, tạo thuận lợi cho quá trình giao dịch.",
-        image: "https://img.freepik.com/free-vector/big-data-center-server-room-rack-engineering-process-teamwork-computer-technology-cloud-storage_39422-1032.jpg?w=900&t=st=1700360686~exp=1700361286~hmac=e56a665fe23b6ecb053f9aa91c06911340e0b0cd92af43fd7e092be8e767f415",
+        title: "Information Technology System",
+        desc: "Information Technology System Description",
+        image: Service4,
         mainService: [
-            "Hoạt động dịch vụ công nghệ thông tin và dịch vụ khác liên quan đến máy vi tính.",
-            "Cổng thông tin.",
+            "Information technology service activities and other services related to computers.",
+            "Portal.",
         ],
     },
     {
-        title: "Tư vấn đầu tư và phát triển",
-        desc: "Với tâm huyết góp phần hoàn thiện bức tranh tài chính cho thị trường Việt nam, Chúng tôi đẩy mạnh hoạt động tư vấn đầu tư để kết nối các chủ thể tiếp cận phương thức giao dịch thông qua mô hình giao dịch hàng hoá tập trung. Đồng thời, chúng tôi luôn nỗ lực kết nối thị trường Việt Nam với thế giới bằng các hoạt động tìm kiếm, thương thảo và xúc tiến kết nối với các đối tác là các tổ chức tài chính lớn trên trường quốc tế.",
-        image: "https://img.freepik.com/free-vector/isometric-b2b-illustration_52683-83010.jpg?w=996&t=st=1700360749~exp=1700361349~hmac=184f0cd35544497a759d4bc1373d621e99d51bfec523c9c1a83c5c6f325d26a4",
+        title: "Investment and Development Consulting",
+        desc: "With enthusiasm to contribute to perfecting the financial picture for the Vietnamese market, we promote investment consulting activities to connect subjects to access trading methods through a centralized commodity trading model. At the same time, we always strive to connect the Vietnamese market with the world by searching, negotiating and promoting connections with partners who are large financial institutions in the international arena.",
+        image: Service5,
         mainService: [
-            "Hoạt động tư vấn đầu tư.",
-            "Tổ chức giới thiệu và xúc tiến thương mại.",
+            "Investment consulting activities.",
+            "Organize trade introduction and promotion.",
         ],
     },
 ];
@@ -253,54 +269,91 @@ export const imagesGallery = [
 
 export const members = [
     {
-        name: "Công ty ICC",
-        desc: "ICC thành lập năm 200x. Hoạt động hơn 20 năm lĩnh vực Bất Động sản, tiền thân là công ty trực thuộc Bộ Quốc Phòng đến năm 2xxx đã cổ phần hóa và và Ông Hoàng Kim Đồng chủ tịch nắm giữ ….cổ phần",
+        name: "International Project Investment Consulting Joint Stock Company (ICC)",
+        desc: "ICC was established in 2001.",
+        desc2: "Operating for more than 20 years in the Real Estate field, formerly a company under the Ministry of National Defense, it was equitized in 2017.",
+        history: [],
         list: [
-            "Dự án nhà ở Đội Nhân trị giá 500 tỉ VNĐ",
-            "Dự án nhà ở Trường Chinh trị giá 900 tỷ VNĐ",
-            "Dự án nhà ở VP Phạm Văn Đồng trị giá 650 tỷ VNĐ",
+            {
+                name: "Doi Nhan housing project worth 500 billion VND",
+                image: Project21,
+            },
+            {
+                name: "Truong Chinh housing project is worth 900 billion VND",
+                image: Img2,
+            },
+            {
+                name: "Pham Van Dong Office housing project worth 650 billion VND",
+                image: PvdProject,
+            },
         ],
-        logo: Icc,
+        logo: MemberIcc,
         images: [
-            {
-                src: Icc1,
-                width: 4,
-                height: 3,
-            },
-            {
-                src: Icc2,
-                width: 4,
-                height: 3,
-            },
-            {
-                src: Icc3,
-                width: 4,
-                height: 3,
-            },
-            {
-                src: Icc5,
-                width: 4,
-                height: 3,
-            },
+            // {
+            //     src: Icc1,
+            //     width: 4,
+            //     height: 3,
+            // },
+            // {
+            //     src: Icc2,
+            //     width: 4,
+            //     height: 3,
+            // },
+            // {
+            //     src: Icc3,
+            //     width: 4,
+            //     height: 3,
+            // },
+            // {
+            //     src: Icc5,
+            //     width: 4,
+            //     height: 3,
+            // },
         ],
     },
     {
-        name: "Công ty Emmanuel",
-        desc: "Tiền thân là Công ty CP phát triển dự án Cổ Nhuế thành lập ngày 24/12/2009",
-        list: [
-            "Đại diện độc quyền xuất khẩu lao động cung ứng nhân lực cho Quốc Đảo Xankit đevit…",
-            "Chủ đầu tư dự án Tây Hồ Tây – Vị trí đất vàng đắt nhất Hà Nội với tổng mức đầu tư dự kiến 2000 tỷ",
-            "Năm 2011 đổi tên thành Công ty cổ phần đầu tư thương mại Hà Nguyên",
-            "2015 Công ty CP thương mại đầu tư Việt Mỹ",
+        name: "Emmanuel Vietnam Group Joint Stock Company",
+        desc: "Formerly known as Co Nhue Project Development Joint Stock Company, established on December 24, 2009",
+        history: [
+            {
+                date: "24/12/2009",
+                desc: "Co Nhue Project Development Joint Stock Company",
+            },
+            {
+                date: "2011",
+                desc: "Ha Nguyen Trading Investment Joint Stock Company",
+            },
+            {
+                date: "2015",
+                desc: "Viet My Trading and Investment Joint Stock Company",
+            },
+            {
+                date: "Now",
+                desc: "Emmanuel Vietnam Group Joint Stock Company",
+            },
         ],
-        logo: "",
+        list: [
+            {
+                name: "Investor of Tay Ho Tay project",
+                desc: "The most expensive golden land location in Hanoi with a total estimated investment of 2000 billion",
+                image: EEVProject1,
+            },
+            {
+                name: "Exclusive representative for labor export",
+                desc: "Exclusive representative for exporting labor to supply human resources for the Island of Xankit devit…",
+                image: EEVProject2,
+            },
+        ],
+        logo: MemberEev,
         images: [],
     },
     {
-        name: "Công ty Homes Care",
-        desc: "Thành lập năm xxxx với lĩnh vực hoạt động chính là cung ứng dịch vụ quản lý tòa nhà. Với đội ngũ nhân sự chuyên nghiệp.",
+        name: "Hanoi Housing Services & Real Estate Business Limited Liability Company (Hanoi Home Care Company)",
+        desc: "Established in 2017 with the main field of activity being providing building management services.",
+        desc2: "With a team of professional staff.",
+        history: [],
         list: [],
-        logo: "",
+        logo: MemberHc,
         images: [
             {
                 src: Hc1,
@@ -340,8 +393,9 @@ export const members = [
         ],
     },
     {
-        name: "Công ty Hoàng Khánh",
-        desc: "Thành lập năm 2022 với lĩnh vực hoạt động chính là cung ứng nhân lực Logistic tại cảng.",
+        name: "HOANG KHANH TM DVXD JOINT STOCK COMPANY",
+        desc: "Established in 2022, the main field of operation is in the field of cargo loading and unloading, sea and road transport, logistics, warehousing, tourism, trade and services,... With the motto 'Taking the needs Customer needs are the focus of development' because customer satisfaction is a factor for Hoang Khanh to care about and develop. We understand that all our efforts in service quality will always contribute to the future success of our customers. Based on the existing potential of facilities and people, Hoang Khanh believes that it will provide customers with the best services to promote their brand image effectively. Customer satisfaction is the success of our business.",
+        history: [],
         list: [],
         logo: HKLogo,
         images: [
@@ -382,9 +436,10 @@ export const members = [
 export const projects = [
     {
         name: "Khu siêu thị, văn phòng giao dịch, thương mại và nhà ở",
-        address: "317 Trường Chinh",
+        address: "317 Truong Chinh",
         ownOfProject: "EEV Group",
-        consultingUnit: "Công ty cổ phần tư vấn và đầu tư quốc tế Interbuild",
+        consultingUnit:
+            "Interbuild international investment and consulting joint stock company",
         images: [
             {
                 src: Img2,
@@ -517,9 +572,11 @@ export const projects = [
     {
         name: "Khu văn phòng và nhà ở",
         address:
-            "Số 02 và 04 phố Đội Nhân, phường Vĩnh Phúc-Quận Ba Đình-Thành Phố Hà Nội",
-        ownOfProject: "Công ty cổ phần tư vấn đầu tư dự án quốc tế",
-        consultingUnit: "Công ty cổ phần tư vấn và đầu tư quốc tế Interbuild",
+            "No. 02 and 04 Doi Nhan Street, Vinh Phuc Ward - Ba Dinh District - Hanoi City",
+        ownOfProject:
+            "ICC - International project investment consulting joint stock company",
+        consultingUnit:
+            "Interbuild international investment and consulting joint stock company",
         images: [
             {
                 src: Project21,
@@ -660,9 +717,10 @@ export const projects = [
     },
     {
         name: "Dự án Phạm Văn Đồng",
-        address: "Phạm Văn Đồng",
+        address: "Pham Van Dong",
         ownOfProject: "EEV Group",
-        consultingUnit: "Công ty cổ phần tư vấn và đầu tư quốc tế Interbuild",
+        consultingUnit:
+            "Interbuild international investment and consulting joint stock company",
         images: [
             {
                 src: Project31,
@@ -678,9 +736,10 @@ export const projects = [
     },
     {
         name: "Dự án Hồ Tây",
-        address: "Hồ Tây",
+        address: "Ho Tay",
         ownOfProject: "EEV Group",
-        consultingUnit: "Công ty cổ phần tư vấn và đầu tư quốc tế Interbuild",
+        consultingUnit:
+            "Interbuild international investment and consulting joint stock company",
         images: [
             {
                 src: Project41,
@@ -697,9 +756,29 @@ export const projects = [
 ];
 
 export const welfarePolicy = [
-    "Chính sách bảo hiểm Xã Hội bảo hiểm Y tế: nhằm đảm bảo chế độ lương hưu và các phúc lợi khi cán bộ công nhân viên sử dụng các dịch vụ khám chữa bệnh.",
-    "Chương trình du lịch thường niên, với các hoạt động Team work sôi nổi hiệu quả.",
-    "Chính sách chăm lo đời sống cho cán bộ nhân viên: Ốm đau, sinh đẻ, cưới hỏi, sinh nhật, lễ tết…",
-    "Dịch vụ thể thao giải trí cho CBNV nổi bật là Phòng Bi A luxury phục vụ cho nhân viên Relax…",
-    "Chính sách bán nhà ưu đãi cho CBNV khi mua các sản phẩm BĐS do tập đoàn làm chủ đầu tư…",
+    {
+        image: Policy1,
+        content:
+            "Social Insurance and Health Insurance Policy - Aimed at ensuring pension benefits and various welfare provisions for employees when utilizing medical examination and treatment services.",
+    },
+    {
+        image: Policy2,
+        content:
+            "Annual travel program featuring lively and effective team-building activities.",
+    },
+    {
+        image: Policy3,
+        content:
+            "Employee Welfare Policy - Covering sickness, maternity, marriage, birthdays, holidays, and festivals...",
+    },
+    {
+        image: Policy4,
+        content:
+            "Outstanding recreational sports services for employees, notably the Bi A luxury room catering to their entertainment needs...",
+    },
+    {
+        image: Policy5,
+        content:
+            "Discounted home purchasing policy for employees when buying real estate products developed by the corporation...",
+    },
 ];

@@ -49,14 +49,17 @@
                 gap: 20px;
                 .footer-info-item {
                     display: flex;
+                    align-items: center;
                     gap: 10px;
                     // align-items: center;
                     .footer-info-icon {
+                        flex: 1;
                         color: var(--white-color);
                         font-size: 2rem;
                         // margin-top: 5px;
                     }
                     .info-text {
+                        flex: 8;
                         color: var(--white-color);
                         span {
                             font-weight: bold;

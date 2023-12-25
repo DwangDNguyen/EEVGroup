@@ -95,8 +95,65 @@ import Hk5 from "./assets/image/hk5.jpg";
 import Hk6 from "./assets/image/hk6.jpg";
 import HKLogo from "./assets/image/hk_logo.png";
 import Banner from "./assets/image/banner-bds.jpg";
-
+import LogoNav from "./assets/image/logo-nav.png";
+import Bgr from "./assets/image/Group.png";
+import ImgBanner1 from "./assets/image/img-banner-1.png";
+import ImgBanner2 from "./assets/image/img-banner-2.png";
+import ImgBanner3 from "./assets/image/img-banner-3.png";
+import ImgBanner4 from "./assets/image/img-banner-4.png";
+import SummaryImg from "./assets/image/summary-img.png";
+import BannerAbout from "./assets/image/banner-about.png";
+import LogoBlack from "./assets/image/logo-black.png";
+import EEVPolicy from "./assets/image/eev-policy.png";
+import Policy1 from "./assets/image/policy1.png";
+import Policy2 from "./assets/image/policy2.png";
+import Policy3 from "./assets/image/policy3.png";
+import Policy4 from "./assets/image/policy4.png";
+import Policy5 from "./assets/image/policy5.png";
+import BannerService from "./assets/image/banner-service.png";
+import BannerMember from "./assets/image/banner-member.png";
+import Service1 from "./assets/image/service1.png";
+import Service2 from "./assets/image/service2.png";
+import Service3 from "./assets/image/service3.png";
+import Service4 from "./assets/image/service4.png";
+import Service5 from "./assets/image/service5.png";
+import MemberEev from "./assets/image/member-eev.png";
+import MemberHk from "./assets/image/member-hk.png";
+import MemberIcc from "./assets/image/member-icc.png";
+import MemberHc from "./assets/image/member-hc.png";
+import EEVProject1 from "./assets/image/eevproject1.png";
+import EEVProject2 from "./assets/image/eevproject2.png";
+import PvdProject from "./assets/image/pvd-project.jpg";
 export {
+    PvdProject,
+    EEVProject1,
+    EEVProject2,
+    MemberEev,
+    MemberIcc,
+    MemberHk,
+    MemberHc,
+    Service1,
+    Service2,
+    Service3,
+    Service4,
+    Service5,
+    BannerService,
+    BannerMember,
+    Policy1,
+    Policy2,
+    Policy3,
+    Policy4,
+    Policy5,
+    EEVPolicy,
+    LogoBlack,
+    BannerAbout,
+    SummaryImg,
+    ImgBanner1,
+    ImgBanner2,
+    ImgBanner3,
+    ImgBanner4,
+    Bgr,
+    LogoNav,
     LogoBgBlack,
     logoText,
     logoEEV,

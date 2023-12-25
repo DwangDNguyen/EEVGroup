@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 import styles from "./ImageGallery.module.scss";
 import classNames from "classnames/bind";
 import Gallery from "react-photo-gallery";

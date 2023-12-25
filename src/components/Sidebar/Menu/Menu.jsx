@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import styles from "../Sidebar.module.scss";
 import classNames from "classnames/bind";
+import { useTranslation } from "react-i18next";
 const cx = classNames.bind(styles);
 const variants = {
     open: {
@@ -27,6 +28,7 @@ const itemVariants = {
 };
 
 const Menu = () => {
+    const { t } = useTranslation();
     return (
         <motion.div className={cx("links")} variants={variants}>
             <motion.a
@@ -35,7 +37,7 @@ const Menu = () => {
                 whileTap={{ scale: 0.95 }}
                 href="/"
             >
-                Trang chủ
+                {t("home.Home")}
             </motion.a>
             <motion.a
                 variants={itemVariants}
@@ -43,7 +45,7 @@ const Menu = () => {
                 whileTap={{ scale: 0.95 }}
                 href="/about"
             >
-                Về chúng tôi
+                {t("home.About")}
             </motion.a>
             <motion.a
                 variants={itemVariants}
@@ -51,7 +53,7 @@ const Menu = () => {
                 whileTap={{ scale: 0.95 }}
                 href="/service"
             >
-                Dịch vụ
+                {t("home.Service")}
             </motion.a>
             <motion.a
                 variants={itemVariants}
@@ -59,7 +61,7 @@ const Menu = () => {
                 whileTap={{ scale: 0.95 }}
                 href="/project"
             >
-                Dự án
+                {t("home.Project")}
             </motion.a>
             <motion.a
                 variants={itemVariants}
@@ -67,7 +69,7 @@ const Menu = () => {
                 whileTap={{ scale: 0.95 }}
                 href="/members"
             >
-                Thành viên
+                {t("home.Member")}
             </motion.a>
         </motion.div>
     );
